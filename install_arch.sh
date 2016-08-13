@@ -30,4 +30,9 @@ apt-get install g++
 
 #install you complete me
 #git clone http://gitbub.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
-python ~/.vim/bundle/YouCompleteMe/install.py --clang-completer
+#python ~/.vim/bundle/YouCompleteMe/install.py --clang-completer
+
+#config git
+git config --global user.name BoenYang
+git config --global user.email yang0927mail@gmail.com
+git config --global core.editor vim
