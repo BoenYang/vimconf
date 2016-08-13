@@ -26,6 +26,7 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'majutsushi/tagbar'
 Bundle 'bling/vim-airline'
+Bundle 'Valloric/YouCompleteMe'
 "Bundle 'ervandew/supertab'
 "Bundle 'DoxygenToolkit.vim'
 "Bundle 'Lokaltog/vim-powerline'
@@ -51,4 +52,7 @@ inoremap <C-W> <ESC>:w<CR>
 
 "config ctags
 "set tags+=./tags
+
+"you complete me config
+let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
